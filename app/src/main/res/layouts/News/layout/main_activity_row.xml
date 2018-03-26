@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="2dp"
+    android:layout_weight="1"
+    android:paddingRight="2dp"
+    android:layout_marginTop="5dp"
+    >
+
+    <TextView
+        android:id="@+id/tvMainActivityItem"
+        android:layout_height="60sp"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="NEWS"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:layout_weight="2.2"
+        android:scaleType="fitXY"
+        android:id="@+id/ivMainActivityItem"
+        android:layout_height="60sp"
+        android:layout_width="0dp" />
+</LinearLayout>

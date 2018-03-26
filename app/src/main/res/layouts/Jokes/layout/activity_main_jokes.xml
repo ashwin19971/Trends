@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lvJokes"
+        android:background="#fff"
+        android:divider="#D3D3D3"
+        android:dividerHeight="2sp"
+        android:layout_height="match_parent">
+    </ListView>
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginBottom="7sp"-->
+        <!--android:layout_height="50sp"-->
+        <!--android:text="JOKES"-->
+        <!--android:background="#FF7F00"-->
+        <!--android:gravity="center|left"-->
+        <!--android:textStyle="normal"-->
+        <!--android:paddingLeft="10sp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="#fff"/>-->
+
+</LinearLayout>
